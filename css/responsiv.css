@@ -1,0 +1,245 @@
+/* Media Quary for mobail responsiv Start */
+@media only screen and (max-width: 688px) {
+
+    /* nav section start */
+    .nav_for_mobail {
+        margin-left: 20px;
+        display: block;
+    }
+
+    .nav_for_mobail img {
+        width: 60px;
+    }
+
+    .nav_for_pc {
+        display: none;
+    }
+
+    /* nav section end */
+    /* Header section Start */
+    .main_section {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .watch_button {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .watch_button > h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .button {
+        display: flex;
+        justify-content: left;
+        margin-top: 30px;
+        width: 192px;
+    }
+
+    .title_img {
+        width: 90%;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .title_img img {
+        width: 100%;
+    }
+
+    /* Header section end */
+    /* Top player section start */
+    .player_list {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+    }
+
+    .singel_player {
+        margin: 0 20px;
+        min-height: auto;
+    }
+
+    .singel_player img {
+        width: 100%;
+        height: 60%;
+    }
+
+    /* Top player section end */
+    /* Hero section start */
+    .heros {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        margin-top: 20px;
+        width: 90%;
+        height: 60%;
+        border: 2px solid gray;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero_cover img {
+        width: 100%;
+        min-height: 62%;
+    }
+
+    /* Hero section end */
+    /* Highlite section start */
+    .highlite_cupa_wrapper {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .highlite_section {
+        margin-top: -300px;
+    }
+
+    .higlite_heading_button > h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 35px;
+    }
+
+    .higlite_heading_button {
+        display: block;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .banner {
+        width: 90%;
+        margin-top: 823px;
+        margin-left: -309px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    /* Highlite section end */
+    /* copa cup section start */
+    .all_copa {
+        margin: 10px;
+        width: 90%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    /* copa cup section end */
+    /* footer section start */
+    .footer_sectiom {
+        padding: 60px 0;
+    }
+
+    .footer_img {
+        width: 80%;
+        align-items: center;
+    }
+
+
+
+
+}
+
+/* Media Quary for mobail responsiv end */
+/* Media Quary For Tab Responsive Start */
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    /* nav section start */
+    .nav_for_mobail {
+        margin-left: 20px;
+        display: block;
+    }
+
+    .nav_for_mobail img {
+        width: 60px;
+    }
+
+    .nav_for_pc {
+        display: none;
+    }
+
+    .button {
+        display: flex;
+        justify-content: left;
+        margin-top: 30px;
+        width: 192px;
+    }
+
+    /* nav section end */
+    /* Top player section start */
+    .player_list {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+    }
+
+    /* Top player section end */
+    /* Hero section start */
+    .heros {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        margin-top: 20px;
+        width: 90%;
+        height: 60%;
+        border: 2px solid gray;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .banner {
+        width: 50%;
+    }
+
+    .hero_cover img {
+        width: 100%;
+        min-height: 62%;
+    }
+
+    /* Hero section end */
+    /* Highlite section start */
+    .higlite_heading_button > h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 30px;
+    }
+
+    /* Highlite section end */
+    /* copa cup section start */
+    .all_copa {
+        margin: 10px;
+        width: 90%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    /* copa cup section end */
+}
+
+/* Media Quary For Tab Responsive end */
