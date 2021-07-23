@@ -48,7 +48,7 @@
 
 .login-button {
     display: flex;
-    justify-content: center;
+    align-items:center;
     padding: 10px 24px;
     border-radius: 5px;
     background: rgb(231, 60, 60);
@@ -113,8 +113,8 @@
 
 .button {
     display: flex;
-    justify-content: center;
-    padding: 10px 24px;
+    align-items: center;
+    padding: 4px 24px;
     padding-bottom: 5px;
     border-radius: 5px;
     background: rgb(231, 60, 60);
@@ -434,4 +434,3 @@
 }
 
 /*------------- footer section end --------*/
-/* Oi dekhajay mac amader css sas */
