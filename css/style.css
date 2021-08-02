@@ -427,10 +427,13 @@
 
 }
 
-.copiright p {
+.copiright{
     text-align: center;
     font-size: 23px;
     font-weight: bold;
+    color:#868686;
 }
-
+.copiright .orange{
+    color:#ff9900;
+}
 /*------------- footer section end --------*/
