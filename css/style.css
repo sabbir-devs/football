@@ -433,6 +433,9 @@
     font-weight: bold;
     color:#868686;
 }
+.copiright p{
+    margin-bottom:5px;
+}
 .copiright .orange{
     color:#ff9900;
 }
